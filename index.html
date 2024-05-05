@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>E-commerce Website</h1>
+        <div class="cart-icon" onclick="toggleCart()">🛒</div>
+    </header>
+    
+    <div class="products">
+        <!-- Products will be dynamically added here -->
+    </div>
+
+    <div class="cart-overlay" onclick="toggleCart()"></div>
+    <div class="cart-container">
+        <h2>Shopping Cart</h2>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <button onclick="checkout()">Checkout</button>
+    </div>
+
+    <script src="app.js"></script> 
+    <!-- Add the link to your website icon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+
+</body>
+
+   
